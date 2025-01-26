@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .manrope-font {
@@ -236,8 +237,75 @@
           </section>
     </main>
     <!-- footer-section -->
-    <footer class="bg-red-100 py-32 mt-10 lg:mt-36">
-        <div class="max-w-screen-xl mx-auto  px-4 md:px-6 lg:px-0"></div>
+    <footer class="bg-red-100 py-10 md:py-32 mt-10 lg:mt-36">
+        <div class="max-w-screen-xl mx-auto  px-4 md:px-6 lg:px-0">
+            <!-- footer-started -->
+             <div class="flex flex-col md:flex-row items-center md:justify-between gap-y-10">
+                <!-- footer-left-logo -->
+                 <div>
+                    <img src="images/cup.png" alt="">
+                 </div>
+                 <!-- footer-right-btn -->
+                  <div class="flex flex-col md:flex-row items-center gap-y-5 md:gap-x-10">
+                    <div>
+                        <h1 class="text-xl font-semibold">Ready to get strated?</h1>
+                    </div>
+                    <div>
+                        <button class="bg-gradient-to-r from-orange-500 to-red-500 text-white text-lg font-semibold py-3 px-6 rounded-lg">Get Started</button>
+                    </div>
+                  </div>
+             </div>
+             <!-- footer-links -->
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:mt-32 mt-10 space-y-10">
+                <!-- links 1 -->
+                 <div class="space-y-6">
+                    <h3 class="font-semibold text-3xl text-gray-800">Quick Links</h3>
+                    <ul class="space-y-6">
+                        <li><a href="#" class="text-xl text-gray-600">Home</a></li>
+                        <li><a href="#" class="text-xl text-gray-600">About Us</a></li>
+                        <li><a href="#" class="text-xl text-gray-600">Insurance</a></li>
+                        <li><a href="#" class="text-xl text-gray-600">Privacy Policy</a></li>
+                    </ul>
+                 </div>
+                <!-- links 2 -->
+                 <div class="space-y-6">
+                    <h3 class="font-semibold text-3xl text-gray-800">Our Service</h3>
+                    <ul class="space-y-6">
+                        <li><a href="#" class="text-xl text-gray-600">Life Insurance</a></li>
+                        <li><a href="#" class="text-xl text-gray-600">Car Insurance</a></li>
+                        <li><a href="#" class="text-xl text-gray-600">Health Insurance</a></li>
+                        <li><a href="#" class="text-xl text-gray-600">House Insurance</a></li>
+                    </ul>
+                 </div>
+                <!-- links 3 -->
+                 <div class="space-y-6">
+                    <h3 class="font-semibold text-3xl text-gray-800">Help</h3>
+                    <ul class="space-y-6">
+                        <li><a href="#" class="text-xl text-gray-600">FAQs</a></li>
+                        <li><a href="#" class="text-xl text-gray-600">Contact Us</a></li>
+                    </ul>
+                 </div>
+                <!-- links 3 -->
+                 <div class="space-y-6">
+                    <h3 class="font-semibold text-3xl text-gray-800 leading-snug">Subscribe to our newsletter</h3>
+                    <form action="#">
+                        <input type="text" placeholder="Email-Address" class="bg-transparent text-gray-800 border-b-2 border-black pb-4 text-xl inline-block">
+                        <button><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 bg-orange-600 text-white ml-5 rounded-full inline-block">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                          </svg>
+                          </button>
+                    </form>
+                    <ul class="flex gap-x-4">
+                        <li><a href="#" class="text-xl text-gray-500"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#" class="text-xl text-gray-500"><i class="fa-brands fa-square-instagram"></i></a></li>
+                        <li><a href="#" class="text-xl text-gray-500"><i class="fa-brands fa-twitter"></i></a></li>
+                    </ul>
+                 </div>
+
+              </div>
+              <!-- footer-titles -->
+               <h1 class="font-semibold text-gray-600 text-center mt-32 text-lg">2025 All Rights Reserved by HM Shakil</h1>
+        </div>
     </footer>
 </body>
 </html>
